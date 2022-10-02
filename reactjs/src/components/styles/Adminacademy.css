@@ -1,0 +1,16 @@
+.fields{
+    width: 100%;
+    margin: 10px 20px;
+}
+
+.btn:active{
+    background-color: white;
+    border: 1px solid green;
+    color: green;
+}
+
+@media screen and (min-width: 600px){
+    .fields{
+        width: fit-content;
+    }
+}
